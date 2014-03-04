@@ -23,9 +23,9 @@ After that you have to start mongoDB by typing the following in the command line
 
     $ mongo
 
-Then chose the database "x-plane_apt_nav":
+Then chose the database "xplane_apt_nav":
 
-    $ use x-plane_apt_nav
+    $ use xplane_apt_nav
 
 And finally add a user for the database:
 

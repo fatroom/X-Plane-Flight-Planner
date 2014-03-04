@@ -33,7 +33,7 @@ app.configure('production', function(){
 // DB
 var mongo = require('mongoskin');
 var db = mongo.db(
-  local_config.mongodb.user+':'+local_config.mongodb.password+'@'+local_config.mongodb.host+'/x-plane_apt_nav?auto_reconnect',
+  local_config.mongodb.user+':'+local_config.mongodb.password+'@'+local_config.mongodb.host+'/xplane_apt_nav?auto_reconnect',
   {w:1}
 );
 
